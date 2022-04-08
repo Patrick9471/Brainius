@@ -728,5 +728,18 @@ body {
 
 
 
+.header1 {
+  margin: 0%;
+  padding: 0%;
+  width: 1480px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
 
+  z-index: 1000;
+  border-bottom: 1px solid #515369;
+}
 
