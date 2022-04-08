@@ -743,3 +743,9 @@ body {
   border-bottom: 1px solid #515369;
 }
 
+/*==============================Блоки для конспектов=============================*/
+.Abstracts1 {
+  height: 750px;
+  padding-top: 100px;
+  background-image: url(../img/banner3.png);
+}
