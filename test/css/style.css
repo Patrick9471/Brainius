@@ -43,8 +43,13 @@ body {
   font-family: "Raleway";
   font-weight: 600;
   font-size: 20px;
-}
 
+  opacity: 0.75;
+  transition: opacity 0.1s linear;
+}
+.nav__link:hover {
+  opacity: 1;
+}
 
 /*==============================Intro=============================*/
 .intro {
@@ -73,7 +78,6 @@ body {
   color: #fff;
   font-weight: 600;
   text-align: center;
-  animation: appear-from-opacity 2.5s;
 }
 
 .intro__subtitle {
@@ -83,7 +87,6 @@ body {
   color: #fff;
   line-height: 1.5;
   font-weight: 500;
-  animation: appear-from-opacity 2.5s;
 }
 
 /*==============================Features=============================*/
@@ -662,6 +665,12 @@ body {
   border: 0;
   width:300px;
   height: 300px;
+  transition: background 0.2s linear;
+}
+.Formulas_block:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #b83a21;
 }
 .circle{
   margin: 0%;
@@ -735,6 +744,12 @@ body {
   border: 0;
   width:300px;
   height: 300px;
+  transition: background 0.2s linear;
+}
+.Formulas_block1:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #00858b;
 }
 .circle1{
   margin: 0%;
@@ -806,6 +821,13 @@ body {
   border: 0;
   width:300px;
   height: 300px;
+  transition: background 0.2s linear;
+}
+
+.Formulas_block2:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #cf8a00;
 }
 
 .Formulas_photo2{
@@ -857,6 +879,13 @@ body {
   width:300px;
   height: 300px;
   margin-top: -600px;
+  transition: background 0.2s linear;
+}
+
+.Formulas_block3:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #325b00;
 }
 
 .Formulas_photo3{
@@ -880,8 +909,13 @@ body {
   width:300px;
   height: 300px;
   margin-top: -600px;
+  transition: background 0.2s linear;
 }
-
+.Formulas_block4:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #46a0a4;
+}
 .Formulas_photo4{
   margin: 0%;
   padding: 0%;
@@ -891,19 +925,23 @@ body {
   width: 220px;
   height: 220px;
 }
-
+/*==============================Магнетизм=============================*/
 .Formulas_block5{
   display: flex;
   text-align: center;
   display: inline-block;
-
   border-radius: 20px;
   background:#7EAB44;
   border: 0;
   width:300px;
   height: 300px;
-
   margin-top: -600px;
+  transition: background 0.2s linear;
+}
+.Formulas_block5:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #5d7e31;
 }
 
 .Formulas_photo5{

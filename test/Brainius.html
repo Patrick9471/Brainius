@@ -17,6 +17,8 @@
 <link rel="stylesheet" href="slick/slick.css">
 <link rel="stylesheet" href="slick/slick-theme.css">
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<title>Brainius</title>
 </head>
 <body>
@@ -57,7 +59,8 @@
 <!------------------------------Intro------------------------------>
 <div class="intro">
     <div class="container">
-        <div class="intro__inner">
+        <div  data-aos="fade-up"
+        data-aos-duration="3000" class="intro__inner">
             <h1 class="intro__title">Brainius</h1>
             <h2 class="intro__subtitle">
                 Образовательная платформа для изучения физики</h2>
@@ -69,25 +72,25 @@
 <div class="container">
     <div class="features">
         <div class="features__item">
-                <img class="features__icon" src="img/Billy1.png" alt="">
-                <h4 class="features__title">Актуальные технологии</h4>
-                <div class="features__text"> Возможность для каждого ученика Казахстана получить полноценное, качественное образование или заниматься по отдельным предметам.  </div>
+                <img data-aos="fade-right" class="features__icon" src="img/Billy1.png" alt="">
+                <h4 data-aos="fade-right" class="features__title">Актуальные технологии</h4>
+                <div data-aos="fade-right" class="features__text"> Возможность для каждого ученика Казахстана получить полноценное, качественное образование или заниматься по отдельным предметам.  </div>
             
-                <img class="features__icon" src="img/Billy2.png" alt="">
-                <h4 class="features__title">Лучшие педагоги</h4>
-                <div class="features__text"> Наши преподаватели любят учеников и свой предмет. Знания проходят с учетом интересов и уровня знаний ребенка.  </div>
+                <img data-aos="fade-left" class="features__icon" src="img/Billy2.png" alt="">
+                <h4 data-aos="fade-left" class="features__title">Лучшие педагоги</h4>
+                <div data-aos="fade-left" class="features__text"> Наши преподаватели любят учеников и свой предмет. Знания проходят с учетом интересов и уровня знаний ребенка.  </div>
 
-                <img class="features__icon" src="img/Billy3.png" alt="">
-                <h4 class="features__title">Высокие результаты</h4>
-                <div class="features__text"> Виртуальный класс и интерактивные технологии в подаче учебного материала. Даже сложные темы усваиваются эффективней и проще.  </div>
+                <img data-aos="fade-right" class="features__icon" src="img/Billy3.png" alt="">
+                <h4 data-aos="fade-right" class="features__title">Высокие результаты</h4>
+                <div data-aos="fade-right" class="features__text"> Виртуальный класс и интерактивные технологии в подаче учебного материала. Даже сложные темы усваиваются эффективней и проще.  </div>
 
-                <img class="features__icon" src="img/Billy4.png" alt="">
-                <h4 class="features__title">Низкая стоимость</h4>
-                <div class="features__text"> Доступная цена занятий. Значительно дешевле, чем репетитор и курсы в городе. Так же вы экономите время и деньги на поездках до места занятий.  </div>
+                <img data-aos="fade-left"  class="features__icon" src="img/Billy4.png" alt="">
+                <h4 data-aos="fade-left" class="features__title">Низкая стоимость</h4>
+                <div data-aos="fade-left" class="features__text"> Доступная цена занятий. Значительно дешевле, чем репетитор и курсы в городе. Так же вы экономите время и деньги на поездках до места занятий.  </div>
             
-                <img class="features__icon" src="img/Billy5.png" alt="">
-                <h4 class="features__title">Сильные знания</h4>
-                <div class="features__text"> Вы получаете ежемесячные отчеты о пройденных материалах и результатах тестов. Знаете, что изучил ребенок.  </div>
+                <img data-aos="fade-right" class="features__icon" src="img/Billy5.png" alt="">
+                <h4 data-aos="fade-right" class="features__title">Сильные знания</h4>
+                <div data-aos="fade-right" class="features__text"> Вы получаете ежемесячные отчеты о пройденных материалах и результатах тестов. Знаете, что изучил ребенок.  </div>
         </div> 
     </div>
 </div>
@@ -95,7 +98,9 @@
 
 <!-----------------------------Numbers---------------------------------->
 
-<div class="cont">
+<div data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500" class="cont">
       <div class="numbers__item1">
               <img class="numbers__icon" src="img/Saly.png" alt="">
               <h4 class="numbers__title">53 000</h4>
@@ -294,6 +299,12 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="slick/slick.min.js"></script>
 <script src="main.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
        
 
 </body>
