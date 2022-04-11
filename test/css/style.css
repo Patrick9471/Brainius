@@ -605,6 +605,7 @@ body {
 
 /*==============================Footer=============================*/
 .container4{
+  position: relative;
   margin: 0%;
   padding: 0%;
   display: flex;
@@ -618,8 +619,16 @@ body {
   font-weight: 700;
   color: #00F0FF;
   margin-top: 40px;
-
 }
+
+.footer__title1{
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  color: #00F0FF;
+  margin-top: 60px;
+}
+
 .footer__text{
   font-size: 18px;
   font-family: 'Open Sans';
@@ -644,7 +653,7 @@ body {
   margin-left: 180px;
 }
 
-
+/*==============================Страница с формулами=============================*/
 /*==============================Механика=============================*/
 .Formulas1 {
   display: flex;
@@ -659,6 +668,7 @@ body {
   display: flex;
   text-align: center;
   display: inline-block;
+  text-decoration: none;
 
   border-radius: 20px;
   background:#FF502F;
@@ -745,6 +755,7 @@ body {
   width:300px;
   height: 300px;
   transition: background 0.2s linear;
+  text-decoration: none;
 }
 .Formulas_block1:hover {
   top: 100px;
@@ -822,6 +833,7 @@ body {
   width:300px;
   height: 300px;
   transition: background 0.2s linear;
+  text-decoration: none;
 }
 
 .Formulas_block2:hover {
@@ -880,6 +892,7 @@ body {
   height: 300px;
   margin-top: -600px;
   transition: background 0.2s linear;
+  text-decoration: none;
 }
 
 .Formulas_block3:hover {
@@ -910,6 +923,7 @@ body {
   height: 300px;
   margin-top: -600px;
   transition: background 0.2s linear;
+  text-decoration: none;
 }
 .Formulas_block4:hover {
   top: 100px;
@@ -937,6 +951,7 @@ body {
   height: 300px;
   margin-top: -600px;
   transition: background 0.2s linear;
+  text-decoration: none;
 }
 .Formulas_block5:hover {
   top: 100px;
@@ -953,7 +968,74 @@ body {
   width: 220px;
   height: 220px;
 }
+<<<<<<< HEAD
 /*==============================Блоки для конспектов механика=============================*/
+=======
+/*==============================Оптика=============================*/
+.Formulas2{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+.Formulas_block6{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  background:#fef271;
+  border: 0;
+  width:300px;
+  height: 300px;
+  margin-top: -350px;
+  transition: background 0.2s linear;
+  text-decoration: none;
+}
+.Formulas_block6:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #cac262;
+}
+
+.Formulas_photo6{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 33px;
+  margin-left: 80px;
+  background-image: url(../img/Formulas6.png);
+  width: 220px;
+  height: 220px;
+}
+/*==============================Квантовая физика=============================*/
+.Formulas_block7{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  background:#B539D9;
+  border: 0;
+  width:300px;
+  height: 300px;
+  margin-top: -350px;
+  transition: background 0.2s linear;
+  text-decoration: none;
+}
+.Formulas_block7:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #942eb0;
+}
+
+.Formulas_photo7{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 33px;
+  margin-left: 80px;
+  background-image: url(../img/Formulas7.png);
+  width: 220px;
+  height: 220px;
+}
+/*==============================Блоки для конспектов=============================*/
+>>>>>>> c26e28f917c151fff9eacf2d5e5e37538aba5a97
 .Abstracts1 {
   height: 750px;
   padding-top: 100px;
