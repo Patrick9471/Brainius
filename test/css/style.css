@@ -968,9 +968,7 @@ body {
   width: 220px;
   height: 220px;
 }
-<<<<<<< HEAD
 /*==============================Блоки для конспектов механика=============================*/
-=======
 /*==============================Оптика=============================*/
 .Formulas2{
   display: flex;
@@ -982,7 +980,7 @@ body {
   text-align: center;
   display: inline-block;
   border-radius: 20px;
-  background:#fef271;
+  background:#f1e026;
   border: 0;
   width:300px;
   height: 300px;
@@ -993,7 +991,7 @@ body {
 .Formulas_block6:hover {
   top: 100px;
   box-shadow: 5px 5px 5px #3c354a;
-  background-color: #cac262;
+  background-color: #b9ac1e
 }
 
 .Formulas_photo6{
@@ -1035,7 +1033,6 @@ body {
   height: 220px;
 }
 /*==============================Блоки для конспектов=============================*/
->>>>>>> c26e28f917c151fff9eacf2d5e5e37538aba5a97
 .Abstracts1 {
   height: 750px;
   padding-top: 100px;
@@ -1112,11 +1109,6 @@ body {
   border-radius: 50%;
 }
 
-. {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
-}
 /*==============================Блоки для конспектов молекулярная физика=============================*/
 
 
