@@ -1181,3 +1181,12 @@ body {
   height: 206px;
   position: absolute;
 }
+
+
+/*==============================Блоки для курсы=============================*/
+.Course1 {
+  height: 2700px;
+  padding-top: 100px;
+  background-image: url(../img/banner3.png);
+}
+
