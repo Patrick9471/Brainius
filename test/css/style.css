@@ -968,7 +968,7 @@ body {
   width: 220px;
   height: 220px;
 }
-/*==============================Блоки для конспектов механика=============================*/
+/*==============================Блоки для формул механика=============================*/
 /*==============================Оптика=============================*/
 .Formulas2{
   display: flex;
@@ -1184,9 +1184,164 @@ body {
 
 
 /*==============================Блоки для курсы=============================*/
+/*==============================Блоки для курсы механика=============================*/
 .Course1 {
-  height: 2700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
   padding-top: 100px;
-  background-image: url(../img/banner3.png);
+  background-image: url(../img/Fon.png);
+}
+
+.Course_block{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#FF502F;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+}
+.Course_block:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #b83a21;
+}
+
+.Course_photo{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course1.png);
+  width: 180px;
+  height: 180px;
+}
+
+.Course_title{
+  padding: 0%;
+  margin: 0%;
+
+  font-size: 28px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  color: #000000;
+  position: relative;
+
+  width: 240px;
+  height: 65px;
+  margin-left: 10px;
+  margin-top: 59px;
+  text-align: center; 
+}
+
+.Course_subtitle{
+  padding: 0%;
+  margin: 0%;
+
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  color: #000000;
+  position: relative;
+
+  width: 228px;
+  height: 65px;
+  margin-left: 19px;
+  margin-top: 22px;
+  text-align: center; 
+}
+
+/*==============================Блоки для курсы атомная физика=============================*/
+.Course_block1{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#348498;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+}
+.Course_block1:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #2d5d69;
+}
+.Course_photo1{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course2.png);
+  width: 180px;
+  height: 180px;
+}
+/*==============================Блоки для курсы Механические Колебания=============================*/
+.Course_block2{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#5BD1D7;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+}
+.Course_block2:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #38797c;
+}
+
+.Course_photo2{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course3.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Оптика=============================*/
+.Course_block3{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#6B48FF;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+}
+.Course_block3:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #362680;
+}
+
+.Course_photo3{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course4.png);
+  width: 180px;
+  height: 180px;
 }
 
