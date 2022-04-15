@@ -1201,21 +1201,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1750px;
+  height: 1600px;
+  width: 1480px;
   padding-top: 100px;
   background-image: url(../img/Fon.png); 
   margin: auto;
+  display: inline-block;
 }
-/*.Course1 {
-  display: flex;
-  
-  flex-direction: row;
-  justify-content:center ;
-  border: #006118;
- 
-
-}
-*/
 .Course_block{
   display: flex;
   text-align: center;
@@ -1228,7 +1220,8 @@ body {
   width:260px;
   height: 420px;
   transition: background 0.2s linear;
-
+  margin-top: 100px;
+  margin-left: 160px;
 }
 .Course_block:hover {
   top: 100px;
@@ -1293,6 +1286,8 @@ body {
   width:260px;
   height: 420px;
   transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 .Course_block1:hover {
   top: 100px;
@@ -1321,6 +1316,8 @@ body {
   width:260px;
   height: 420px;
   transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 .Course_block2:hover {
   top: 100px;
@@ -1351,6 +1348,8 @@ body {
   width:260px;
   height: 420px;
   transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 .Course_block3:hover {
   top: 100px;
@@ -1368,7 +1367,7 @@ body {
   height: 180px;
 }
 
-/*==============================Блоки для курсы Оптика=============================*/
+/*==============================Блоки для курсы Молекулярная физика=============================*/
 
 .Course_block4{
   display: flex;
@@ -1377,19 +1376,118 @@ body {
   text-decoration: none;
 
   border-radius: 20px;
-  background:#6B48FF;
+  background:#FFF591;
   border: 0;
   width:260px;
   height: 420px;
   transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 155px;
 }
 .Course_block4:hover {
   top: 100px;
   box-shadow: 5px 5px 5px #3c354a;
-  background-color: #362680;
+  background-color: #979259;
 }
 
 .Course_photo4{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course5.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Термодинамика=============================*/
+
+.Course_block5{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#F5587B;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.Course_block5:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #8b3749;
+}
+
+.Course_photo5{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course6.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Магнетизм=============================*/
+.Course_block6{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#E0F368;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.Course_block6:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #909b46;
+}
+
+.Course_photo6{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course7.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Электростатика=============================*/
+.Course_block7{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#508DAE;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.Course_block7:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #365f75;
+}
+
+.Course_photo7{
   margin: 0%;
   padding: 0%;
   margin-top: 59px;
@@ -1398,4 +1496,3 @@ body {
   width: 180px;
   height: 180px;
 }
-
