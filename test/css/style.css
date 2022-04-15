@@ -1189,23 +1189,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 750px;
+  height: 1750px;
   padding-top: 100px;
-  background-image: url(../img/Fon.png);
+  background-image: url(../img/Fon.png); 
+  margin: auto;
 }
+/*.Course1 {
+  display: flex;
+  
+  flex-direction: row;
+  justify-content:center ;
+  border: #006118;
+ 
 
+}
+*/
 .Course_block{
   display: flex;
   text-align: center;
   display: inline-block;
   text-decoration: none;
-
+  flex-wrap: wrap;
   border-radius: 20px;
   background:#FF502F;
   border: 0;
   width:260px;
   height: 420px;
   transition: background 0.2s linear;
+
 }
 .Course_block:hover {
   top: 100px;
@@ -1336,6 +1347,37 @@ body {
 }
 
 .Course_photo3{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 42px;
+  background-image: url(../img/Course4.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Оптика=============================*/
+
+.Course_block4{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#6B48FF;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+}
+.Course_block4:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #362680;
+}
+
+.Course_photo4{
   margin: 0%;
   padding: 0%;
   margin-top: 59px;
