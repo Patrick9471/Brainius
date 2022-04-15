@@ -27,18 +27,27 @@
 <header class="header"> 
 	<div class="container">
  
+	 <nav class="navbar navbar-light fixed-top">
+	   <div class="container-fluid">
+ 
 		 <nav class="navbar navbar-expand-lg navbar-light">
+		   <div class="container">
+			 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			   <span class="navbar-toggler-icon"></span>
+			 </button>
+	   
+ 
 			 <div class="container-fluid">
 			   <div class="collapse navbar-collapse" id="navbarNav">
 				 <ul class="navbar-nav">
 				   <li class="nav-item">
-					 <a class="nav-link text-light" href="..\Brainius.html">Главная</a>
+					 <a class="nav-link text-light" aria-current="page" href="..\Brainius.html">Главная</a>
 				   </li>
 				   <li class="nav-item">
 					 <a class="nav-link text-light" href="..\Navigation\Конспекты.html">Конспекты</a>
 				   </li>
 				   <li class="nav-item">
-					 <a class="nav-link text-light" aria-current="page" href="..\Navigation\Формулы.html">Формулы</a>
+					 <a class="nav-link text-light" href="..\Navigation\Формулы.html">Формулы</a>
 				   </li>
 				   <li class="nav-item">
 					 <a class="nav-link text-light" href="..\Navigation\Курсы.html">Курсы</a>
@@ -51,7 +60,79 @@
 				 </ul>
 			   </div>
 			 </div>
-		   </nav>
+		   </div>
+		 </nav>
+ 
+		 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+		   <div class="offcanvas-header">
+			 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Brainius</h5>
+			 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		   </div>
+		   <div class="offcanvas-body">
+			 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+			   <li class="nav-item">
+				 <a class="nav-link " aria-current="page" href="#">Главная</a>
+			   </li>
+ 
+			   <li class="nav-item dropdown">
+				 <a class="nav-link  dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				   Конспекты
+				 </a>
+				 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+				   <li><a class="dropdown-item" href="#">Механика</a></li>
+				   <li><a class="dropdown-item" href="#">Молекулярная физика</a></li>
+				   <li><a class="dropdown-item" href="#">Термодинамика</a></li>
+				   <li><a class="dropdown-item" href="#">Электростатика</a></li>
+				   <li><a class="dropdown-item" href="#">Постоянный ток</a></li>
+				   <li><a class="dropdown-item" href="#">Магнетизм</a></li>
+				   <li><a class="dropdown-item" href="#">Оптика</a></li>
+				   <li><a class="dropdown-item" href="#">Квантовая физика</a></li>
+				 </ul>
+			   </li>
+ 
+			   <li class="nav-item dropdown">
+				 <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				   Формулы
+				 </a>
+				 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+				   <li><a class="dropdown-item" href="../test/Navigation/Формулы.html">Механика</a></li>
+				   <li><a class="dropdown-item" href="#">Молекулярная физика</a></li>
+				   <li><a class="dropdown-item" href="#">Термодинамика</a></li>
+				   <li><a class="dropdown-item" href="#">Электростатика</a></li>
+				   <li><a class="dropdown-item" href="#">Постоянный ток</a></li>
+				   <li><a class="dropdown-item" href="#">Магнетизм</a></li>
+				   <li><a class="dropdown-item" href="#">Оптика</a></li>
+				   <li><a class="dropdown-item" href="#">Квантовая физика</a></li>
+				 </ul>
+			   </li>
+ 
+			   <li class="nav-item dropdown">
+				 <a class="nav-link active dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				   Курсы
+				 </a>
+				 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+				   <li><a class="dropdown-item" href="#">Механика</a></li>
+				   <li><a class="dropdown-item" href="#">Молекулярная физика</a></li>
+				   <li><a class="dropdown-item" href="#">Термодинамика</a></li>
+				   <li><a class="dropdown-item" href="#">Электростатика</a></li>
+				   <li><a class="dropdown-item" href="#">Постоянный ток</a></li>
+				   <li><a class="dropdown-item" href="#">Магнетизм</a></li>
+				   <li><a class="dropdown-item" href="#">Оптика</a></li>
+				   <li><a class="dropdown-item" href="#">Квантовая физика</a></li>
+				 </ul>
+			   </li>
+ 
+			   <li class="nav-item">
+				 <a class="nav-link" aria-current="page" href="#">Таблицы</a>
+			   </li>
+			   <li class="nav-item">
+				 <a class="nav-link" aria-current="page" href="#">О нас</a>
+			   </li>
+ 
+		   </div>
+		 </div>
+	   </div>
+	 </nav>
 	</div>
  </header>
  
