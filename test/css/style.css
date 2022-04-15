@@ -1201,7 +1201,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1600px;
+  height: 1700px;
   width: 1480px;
   padding-top: 100px;
   background-image: url(../img/Fon.png); 
@@ -1221,7 +1221,7 @@ body {
   height: 420px;
   transition: background 0.2s linear;
   margin-top: 100px;
-  margin-left: 160px;
+  margin-left: 155px;
 }
 .Course_block:hover {
   top: 100px;
@@ -1491,8 +1491,152 @@ body {
   margin: 0%;
   padding: 0%;
   margin-top: 59px;
+  margin-left: 38px;
+  background-image: url(../img/Course8.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Постяонный ток=============================*/
+
+.Course_block8{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#FFBC8B;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 155px;
+}
+.Course_block8:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #a17759;
+}
+
+.Course_photo8{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 38px;
+  background-image: url(../img/Course9.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Квантовая физика=============================*/
+.Course_block9{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#93CA4D;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.Course_block9:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #6e943d;
+}
+.Course_photo9{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 38px;
+  background-image: url(../img/Course10.png);
+  width: 180px;
+  height: 180px;
+}
+
+/*==============================Блоки для курсы Электромагнитные Колебания=============================*/
+.Course_block10{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#FDCD52;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.Course_block10:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #b4923d;
+}
+
+.Course_photo10{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
+  margin-left: 38px;
+  background-image: url(../img/Course11.png);
+  width: 180px;
+  height: 180px;
+}
+.Course_title1{
+  padding: 0%;
+  margin: 0%;
+
+  font-size: 23px;
+  font-family: 'Raleway';
+  font-weight: 900;
+  color: #000000;
+  position: relative;
+
+  width: 240px;
+  height: 65px;
+  margin-left: 10px;
+  margin-top: 59px;
+  text-align: center; 
+}
+
+/*==============================Блоки для курсы Элементы теории=============================*/
+.Course_block11{
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  border-radius: 20px;
+  background:#B539D9;
+  border: 0;
+  width:260px;
+  height: 420px;
+  transition: background 0.2s linear;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.Course_block11:hover {
+  top: 100px;
+  box-shadow: 5px 5px 5px #3c354a;
+  background-color: #7c2c92;
+}
+
+.Course_photo11{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 59px;
   margin-left: 42px;
-  background-image: url(../img/Course4.png);
+  background-image: url(../img/Course12.png);
   width: 180px;
   height: 180px;
 }
