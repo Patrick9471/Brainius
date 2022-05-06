@@ -1657,6 +1657,40 @@ body {
   height: 180px;
 }
 
+/*============================== UX Блоки для формул=============================*/
+.container10{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.theme_title{
+  font-weight: 600;
+  font-size: 48px;
+  color: #00B2BD;
+}
+.theme{
+  font-size: 25px;
+  margin-left: 150px;
+  text-align: left;
+}
+.theme_sub{
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 150px;
+  text-align: left;
+}
+.formula1{
+  margin-left: -1000px;
+  font-size: 30px;
+}
+.theme_text{
+  font-size: 25px;
+  margin-left: 190px;
+  text-align: left;
+}
+
+
+
 /*============================== UX Блоки для конспектов=============================*/
 .Abstract2 {
   height: 2700px;
