@@ -32,7 +32,21 @@ body {
   z-index: 1000;
   border-bottom: 1px solid #515369;
 }
+.header1 {
+  margin: 0%;
+  padding: 0%;
+  width: 1480px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background-image: url(../img/Fon.png);
 
+  z-index: 1000;
+  border-bottom: 1px solid #515369;
+}
 
 
 .navbar{
@@ -1497,4 +1511,17 @@ body {
   background-image: url(../img/Course4.png);
   width: 180px;
   height: 180px;
+}
+
+
+.conspect_title{
+  font-weight: 700;
+  font-size: 48px;
+  color:#00B2BD;
+  margin-left: 155px;
+  margin-top: 140px;
+}
+.theme{
+  margin-top: 300px;
+  margin-left: -1500px;
 }
