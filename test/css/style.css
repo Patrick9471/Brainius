@@ -1723,62 +1723,53 @@ body {
 
 
 /*============================== UX Блоки для конспектов=============================*/
-.Abstract2 {
-  height: 2700px;
-  padding-top: 100px;
-  background-image: url(../img/banner3.png);
-}
-
-.Abstracts_block{
-  display: flex;
+.container11{
+  margin-top: 150px;
   text-align: center;
-  border-radius: 20px;
-  background: linear-gradient(45deg , #020839, #FFFFFF);
+}
 
-  width: 1100px;
-  height: 250px;
-  margin: 67px;
+.Konspecttheme_title1{
+  font-weight: 900;
+  font-size: 36px;
+  color: #000000;
+}
+.Konspecttheme{
+  font-size: 30px;
+  margin-left: 150px;
+  text-align: left;
+  color: #000000;
+}
+.Konspecttheme_sub{
+  font-size: 30px;
+  margin-left: 150px;
+  text-align: left;
+  color: #000000;
+}
+
+.Konspecttheme_photo1{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect1.png);
+  width: 600px;
+  height: 426px;
+}
+.Konspecttheme_photo2{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 450px;
+  background-image: url(../img/Konspect2.png);
+  width: 650px;
+  height: 226px;
+}
+.formula1{
+  margin-left: -1000px;
+  font-size: 30px;
+}
+.theme_text{
+  font-size: 25px;
   margin-left: 190px;
-  text-decoration: none;
-}
-.about{
   text-align: left;
-  margin-left: 300px;
-
-}
-
-.Abstracts_title1{
-  margin: 0%;
-  padding: 0%;
-  font-size: 40px;
-  font-family: "Raleway";
-  font-weight: 700;
-  color: #000000;
-  
-  margin-top: 10px;
-}
-
-.Abstracts_subtitle1{
-  text-align: left;
-  margin: 0%;
-  padding: 0%;
-  font-size: 20px;
-  font-family: "Raleway";
-  font-weight: 400;
-  color: #000000;
-  width: 736px;
-  margin-top: 30px;
-  
-}
-
-.Abstracts_photo{
-  margin: 0%;
-  padding: 0%;
-  margin-top: 21px;
-  margin-left: 24px;
-  width: 225px;
-  height: 206px;
-  position: absolute;
-  background-image: url(../img/Abstract.png);
-  
 }
