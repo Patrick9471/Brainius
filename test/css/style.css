@@ -1837,6 +1837,24 @@ body {
   width: 900px;
   height: 516px;
 }
+.Konspecttheme_photo9{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect9.png);
+  width: 500px;
+  height: 317px;
+}
+.Konspecttheme_photo10{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 450px;
+  background-image: url(../img/Konspect10.png);
+  width: 750px;
+  height: 396px;
+}
 .theme_text{
   font-size: 25px;
   margin-left: 190px;
