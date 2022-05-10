@@ -1998,6 +1998,15 @@ body {
   width: 250px;
   height: 256px;
 }
+.Konspecttheme_photo26{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 400px;
+  background-image: url(../img/Konspect26.png);
+  width: 800px;
+  height: 486px;
+}
 .theme_text{
   font-size: 25px;
   margin-left: 190px;
