@@ -2007,6 +2007,42 @@ body {
   width: 800px;
   height: 486px;
 }
+.Konspecttheme_photo27{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 600px;
+  background-image: url(../img/Konspect27.png);
+  width: 400px;
+  height: 228px;
+}
+.Konspecttheme_photo28{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 650px;
+  background-image: url(../img/Konspect28.png);
+  width: 300px;
+  height: 278px;
+}
+.Konspecttheme_photo29{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect29.png);
+  width: 500px;
+  height: 235px;
+}
+.Konspecttheme_photo30{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 200px;
+  background-image: url(../img/Konspect30.png);
+  width: 1099px;
+  height: 848px;
+}
 .theme_text{
   font-size: 25px;
   margin-left: 190px;
