@@ -1753,6 +1753,12 @@ body {
   text-align: left;
   color: #000000;
 }
+.Konspecttheme_subb{
+  font-size: 30px;
+  margin-left: 200px;
+  text-align: left;
+  color: #000000;
+}
 
 .Konspecttheme_photo1{
   margin: 0%;
@@ -1772,9 +1778,225 @@ body {
   width: 650px;
   height: 226px;
 }
-.formula1{
-  margin-left: -1000px;
-  font-size: 30px;
+.Konspectformula1{
+  margin-left: 100px;
+  font-size: 50px;
+}
+.Konspectformula2{
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 40px;
+}
+.Konspectformula3{
+  margin-left: 100px;
+  font-size: 35px;
+}
+.Konspecttheme_photo3{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 380px;
+  background-image: url(../img/Konspect3.png);
+  width: 966px;
+  height: 403px;
+}
+.Konspecttheme_photo4{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 450px;
+  background-image: url(../img/Konspect4.png);
+  width: 600px;
+  height: 363px;
+}
+.Konspecttheme_photo5{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 500px;
+  background-image: url(../img/Konspect5.png);
+  width: 606px;
+  height: 376px;
+}
+.Konspecttheme_photo6{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 570px;
+  background-image: url(../img/Konspect6.png);
+  width: 450px;
+  height: 213.4px;
+}
+.Konspecttheme_photo7{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect7.png);
+  width: 500px;
+  height: 211px;
+}
+.Konspecttheme_photo8{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 350px;
+  background-image: url(../img/Konspect8.png);
+  width: 900px;
+  height: 516px;
+}
+.Konspecttheme_photo9{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect9.png);
+  width: 500px;
+  height: 317px;
+}
+.Konspecttheme_photo10{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 450px;
+  background-image: url(../img/Konspect10.png);
+  width: 750px;
+  height: 396px;
+}
+.Konspecttheme_photo11{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 530px;
+  background-image: url(../img/Konspect11.png);
+  width: 500px;
+  height: 215px;
+}
+.Konspecttheme_photo12{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect12.png);
+  width: 400px;
+  height: 365px;
+}
+.Konspecttheme_photo13{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 500px;
+  background-image: url(../img/Konspect13.png);
+  width: 500px;
+  height: 89px;
+}
+.Konspecttheme_photo14{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 500px;
+  background-image: url(../img/Konspect14.png);
+  width: 500px;
+  height: 97px;
+}
+.Konspecttheme_photo15{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 350px;
+  background-image: url(../img/Konspect15.png);
+  width: 800px;
+  height: 232px;
+}
+.Konspecttheme_photo16{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect16.png);
+  width: 428px;
+  height: 232px;
+}
+.Konspecttheme_photo17{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect17.png);
+  width: 600px;
+  height: 240px;
+}
+.Konspecttheme_photo18{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 500px;
+  background-image: url(../img/Konspect18.png);
+  width: 600px;
+  height: 318px;
+}
+.Konspecttheme_photo19{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 450px;
+  background-image: url(../img/Konspect19.png);
+  width: 700px;
+  height: 188px;
+}
+.Konspecttheme_photo20{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 500px;
+  background-image: url(../img/Konspect20.png);
+  width: 500px;
+  height: 346.37px;
+}
+.Konspecttheme_photo21{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect21.png);
+  width: 443px;
+  height: 676px;
+}
+.Konspecttheme_photo22{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect22.png);
+  width: 443px;
+  height: 677px;
+}
+.Konspecttheme_photo23{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 550px;
+  background-image: url(../img/Konspect23.png);
+  width: 400px;
+  height: 200px;
+}
+.Konspecttheme_photo24{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 650px;
+  background-image: url(../img/Konspect24.png);
+  width: 300px;
+  height: 237px;
+}
+.Konspecttheme_photo25{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
+  margin-left: 650px;
+  background-image: url(../img/Konspect25.png);
+  width: 250px;
+  height: 256px;
 }
 .theme_text{
   font-size: 25px;
